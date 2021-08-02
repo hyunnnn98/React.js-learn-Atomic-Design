@@ -1,0 +1,16 @@
+.default {
+  width: auto;
+  height: auto;
+  margin-top: 24px;
+  /* padding: 36px; */
+}
+
+.title {
+  margin: 0 0 6px 0;
+  color: rgb(128, 128, 128);
+}
+
+.name {
+  margin: 0 0 12px 0;
+  color: rgb(227, 87, 81);
+}
