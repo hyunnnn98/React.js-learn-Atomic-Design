@@ -1,8 +1,13 @@
 .default {
+  display: flex;
   width: auto;
   height: auto;
   margin-top: 24px;
   /* padding: 36px; */
+}
+
+.default > p {
+  margin: 10px;
 }
 
 .title {

@@ -1,4 +1,4 @@
-# React Hooks + Context API Template
+# React Hooks + Redux API Template
 
 ## Installation With Run
 
@@ -12,7 +12,7 @@ $ npm run start
 - JavaScript
 - React 17.x
 - Hooks
-- Context API
+- Redux API
 
 ## Use Pattern
 
@@ -27,7 +27,6 @@ $ npm run start
     - atoms: element layouts
     - molecules: grouping layouts
     - organisms: molecules + atoms + etc layouts
-    - templates: page template css
-  - containers: state, data components
-  - models: model interface
-  - store: global store (use context api)
+  - pages: state, data components
+  - hooks: React Custom Hook, useSelector, useDispatch로 리덕스 상태 Get 
+  - modules: global store (use redux)
