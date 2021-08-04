@@ -6,19 +6,18 @@ import { applyMiddleware, createStore } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import { Router } from 'react-router';
 import { createBrowserHistory } from 'history';
+
+import App from './App';
 import rootReducer from './modules';
-import MainPage from './pages/MainPage';
-import './assets/styles/reset.css';
 
 export const history = createBrowserHistory();
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(Thunk)));
 
-// rafec
+// refce
 ReactDOM.render(
   <Router history={history}>
     <Provider store={store}>
-      <MainPage />
-      <input type="text" />
+      <App />
     </Provider>
   </Router>,
   document.querySelector('#root')
