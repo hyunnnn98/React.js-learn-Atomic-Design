@@ -13,7 +13,7 @@ import rootReducer from './modules';
 export const history = createBrowserHistory();
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(Thunk)));
 
-// refce
+// rafce
 ReactDOM.render(
   <Router history={history}>
     <Provider store={store}>

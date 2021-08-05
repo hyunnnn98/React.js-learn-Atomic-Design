@@ -1,18 +1,21 @@
 import React from 'react';
-import classNames from 'classnames';
 
-import P, { Size, Weight } from '../../atoms/P';
+// styles
+import Text, { Size, Weight } from '../../atoms/Text';
 
-import styles from './style.module.css';
-
-const Header = ({ className }) => {
-  const classProps = classNames(className, styles['default']);
-
+const Header = () => {
   return (
-    <div className={classProps}>
-      <P text="fist tab" size={Size.extraLarge} className={styles['title']} />
-      <P text="second tab" size={Size.extraLarge} weight={Weight.bold} className={styles['name']} />
-      <P text="third tab" size={Size.extraLarge} className={styles['title']} />
+    <div>
+      <Text size={Size.extraLarge}>organisms/Header</Text>
+      <Text size={Size.regular} weight={Weight.bold}>
+        first tab
+      </Text>
+      <Text size={Size.regular} weight={Weight.bold}>
+        second tab
+      </Text>
+      <Text size={Size.regular} weight={Weight.bold}>
+        third tab
+      </Text>
     </div>
   );
 };

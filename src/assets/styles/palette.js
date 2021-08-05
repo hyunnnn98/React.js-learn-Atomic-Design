@@ -3,12 +3,13 @@ export const PRIMARY = '#1779ba';
 export const SECONDARY = '#767676';
 export const WHITE = '#FFFFFF';
 export const BLACK = '#1b1f23';
-export const DEEP_BLUE = '#2f4177';
 
 // ACTIONS
 export const SUCCESS = '#3adb76';
 export const WARNING = '#ffae00';
 export const ALERT = '#cc4b37';
+export const ACTIVE_YELLOW = '#ffd700';
+export const DISABLED_YELLOW = '#d6b400';
 
 // GRAYSCALE
 export const GRAY_LIGHT = '#e6e6e6';

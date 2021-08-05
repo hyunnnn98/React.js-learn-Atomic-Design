@@ -13,6 +13,8 @@ $ npm run start
 - React 17.x
 - Hooks
 - Redux API
+- React-intl
+- styled-components
 
 ## Use Pattern
 

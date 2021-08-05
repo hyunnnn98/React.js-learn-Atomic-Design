@@ -11,6 +11,6 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-		font-family: 'Noto Sans KR', sans-serif;
+		font-family: 'Noto Sans JP', sans-serif;
   }
 `;
