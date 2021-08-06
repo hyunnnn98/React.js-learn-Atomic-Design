@@ -2,7 +2,7 @@ import React from 'react';
 
 // styles
 import styled from 'styled-components';
-import * as palette from '../../../assets/styles/palette';
+import * as palette from 'assets/styles/palette';
 
 const StyledUnderLinedInput = styled.input`
   padding: 5px;

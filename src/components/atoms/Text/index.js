@@ -2,7 +2,7 @@ import React from 'react';
 
 // styles
 import styled from 'styled-components';
-import * as palette from './../../../assets/styles/palette';
+import * as palette from 'assets/styles/palette';
 
 export const Size = {
   small: 14,
